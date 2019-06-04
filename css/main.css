@@ -1,0 +1,108 @@
+.box { 
+	width: 50px; 
+	height: 50px; 
+	margin: 10px;
+	padding: 10px;
+	border: 3px solid black;
+	background-color: red;
+
+	transition: all 0.75s;
+}
+
+.box:hover {
+	-moz-transform: rotate(15deg);
+	-webkit-transform: rotate(15deg);
+	-o-transform: rotate(15deg);
+	-ms-transform: rotate(15deg);
+	
+	transform: rotate(15deg);
+
+	border-radius: 30px;
+	background-color: blue;
+	color: white;
+	text-transform: uppercase;
+}
+
+/* there are the css3 button styles */
+
+body {
+	font-family:  Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	padding: 20px 0 0 20px;
+}
+
+.button {
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+	border-radius: 5px;
+
+	/* add a box shadow */
+	box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.blue {
+    background: rgb(109,179,242); /* Old browsers */
+    background: -webkit-linear-gradient(rgba(109,179,242,1) 0%, rgba(84,163,238,1) 50%, rgba(54,144,240,1) 51%, rgba(30,105,222,1) 100%);
+    background: -o-linear-gradient(rgba(109,179,242,1) 0%, rgba(84,163,238,1) 50%, rgba(54,144,240,1) 51%, rgba(30,105,222,1) 100%);
+    background: linear-gradient(rgba(109,179,242,1) 0%, rgba(84,163,238,1) 50%, rgba(54,144,240,1) 51%, rgba(30,105,222,1) 100%);
+    /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#1e69de',GradientType=0 ); /* IE6-9 */
+} 
+
+.button:active {
+	position: relative;
+	top: 2px;
+}
+
+/* navbar rues */
+
+main { margin: 0 auto; width: 960px; }
+
+#main-nav {
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	height: 60px;
+
+	background: rgb(99, 171, 226);
+}
+
+#main-nav ul { list-style-type: none; }
+
+#main-nav ul li { float: left; }
+
+#main-nav ul li a {
+	display: block;
+	color: white;
+	font-size: 1em;
+	text-decoration: none;
+	margin: 10px 0px 30px 10px;
+	padding: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	border-radius: 10px;
+	cursor: pointer;
+
+	-webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-o-transition: all 0.75s ease;
+	
+	transition: all 0.75s ease;
+}
+
+#main-nav ul li a:hover {
+	background-color: white;
+	border-radius: 10px;
+	color: #333;
+}
+
+.hidden { 
+	display:none; }
+
+
+
+
